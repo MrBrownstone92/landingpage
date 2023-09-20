@@ -2,12 +2,17 @@ html {
   background-color: rgb(251, 200, 7);
 }
 
-.intro {
+.navbar {
 color: black;
 font-size: bolder;
+display: flex;
+gap: 20px;
+}
+
+.title {
+  font-size: 80px;
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
