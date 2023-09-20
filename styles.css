@@ -1,0 +1,13 @@
+html {
+  background-color: rgb(251, 200, 7);
+}
+
+.intro {
+color: black;
+font-size: bolder;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
