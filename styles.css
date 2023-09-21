@@ -41,7 +41,7 @@ border-color: black;
 
 .intro-a {
   grid-area: header;
-  font-size: 50px;
+  font-size: auto;
 }
 
 .intro-b {
@@ -68,6 +68,7 @@ border-color: black;
 
 .intro-d {
   grid-area: image;
+max-width: 100%;
 }
 
 .illustrations {
@@ -75,17 +76,54 @@ border-color: black;
   justify-content: center;
   align-items: baseline;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .illustrations > figure > img {
   width: auto;
-  height: 400px;
+  height: 300px;
   border: solid rgb(0, 0, 0);
   border-radius: 20px;
+  margin: 5px;
 }
 
 .subheader {
   text-align: center;
   font-size: 50px;
   border-bottom: 2px black;
+}
+
+figure img {
+  vertical-align: top;
+  align-items: center;
+}
+figure figcaption {
+  text-align: center;
+}
+
+.quotes {
+  background-color: rgb(231, 223, 223);
+  border-style: solid;
+border-color: black;
+padding: 10%;
+border-radius: 10px;
+font-size: 30px;
+font-style: italic;
+}
+
+.CTA {
+  background-color: rgb(56, 130, 246);
+  color: white;
+  display: flex;
+  padding: 20px;
+  margin: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.Username {
+  text-align: center;
 }
